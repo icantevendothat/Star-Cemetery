@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'BebasNeue-Regular';
+  src: url('fonts/BebasNeue-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Abel-Regular';
+  src: url('fonts/Abel-Regular.ttf') format('ttf');
+}
+
+body {
+  font-family: 'BebasNeue', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* below code until line 21 from Dora <3  */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.example {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+  #tooltip { 
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  #tooltip h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  #tooltip ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #tooltip li {
+    margin-bottom: 5px;
+  }
+
+main{
+    position: relative;
+  }
+
+  .city{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+  }
+
+  
